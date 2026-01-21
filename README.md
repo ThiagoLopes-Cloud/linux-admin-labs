@@ -14,3 +14,10 @@ Este repositório foi criado para documentar meu aprendizado prático em Linux, 
 - Boas práticas em ambientes Linux
 
 ---
+## 🛠️ Tecnologias Utilizadas
+- Linux (Ubuntu)
+- Bash / Shell Script
+- OpenSSL
+- SSH / PuTTY
+
+---
