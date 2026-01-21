@@ -21,3 +21,4 @@ Este repositório foi criado para documentar meu aprendizado prático em Linux, 
 - SSH / PuTTY
 
 ---
+## 📂 Estrutura do Projeto
