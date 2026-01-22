@@ -131,6 +131,30 @@ done
 ```
 📌 Remove usuários e seus diretórios associados.
 
+---
+
 ## 🧪 Comandos de Teste e Validação
 ### Verificar usuários Criados
 ```
+cat /etc/passwd | grep guest
+```
+---
+### Verificar grupos
+```
+cat /etc/passwd | grep guest
+```
+---
+### Verificar expiração de senha
+```
+chage -l carlos
+```
+---
+
+## 📌 Observações Finais
+- Todos os comandos foram testados em ambiente Linux (Ubuntu)
+
+- Os scripts seguem boas práticas de automação
+
+- O objetivo é consolidar o aprendizado prático em administração Linux
+
+- Este documento faz parte do processo de aprendizado contínuo e evolução técnica.
