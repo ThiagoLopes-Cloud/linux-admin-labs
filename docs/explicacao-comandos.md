@@ -128,4 +128,9 @@ for i in {1..25}
 do
   userdel -r guest$i
 done
-``
+```
+📌 Remove usuários e seus diretórios associados.
+
+## 🧪 Comandos de Teste e Validação
+### Verificar usuários Criados
+```
