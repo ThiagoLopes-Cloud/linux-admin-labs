@@ -9,7 +9,7 @@ mkdir /sec && \
 
 echo "Diretórios Criados com Sucesso!"
 
-echpo "Criando Grupos de Usuários..."
+echo "Criando Grupos de Usuários..."
 
 groupadd GRP_ADM && \
 groupadd GRP_VEN && \
