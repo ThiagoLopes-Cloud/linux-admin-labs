@@ -14,6 +14,13 @@ Este repositório foi criado para documentar meu aprendizado prático em Linux, 
 - Boas práticas em ambientes Linux
 
 ---
+## 📜 Script principal
+O script `iacl.sh` realiza as seguintes etapas:
+1. Cria grupos administrativos
+2. Cria usuários associados a esses grupos
+3. Define uma senha padrão
+4. Força a troca de senha no primeiro login
+---
 ## 🛠️ Tecnologias Utilizadas
 - Linux (Ubuntu)
 - Bash / Shell Script
