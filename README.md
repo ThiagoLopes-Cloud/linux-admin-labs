@@ -15,7 +15,7 @@ Este repositório foi criado para documentar meu aprendizado prático em Linux, 
 
 ---
 ## 📜 Script principal
-O script `iacl.sh` realiza as seguintes etapas:
+O script [`iacl.sh`](scripts/iac1.sh) realiza as seguintes etapas:
 1. Cria grupos administrativos
 2. Cria usuários associados a esses grupos
 3. Define uma senha padrão
@@ -24,7 +24,7 @@ O script `iacl.sh` realiza as seguintes etapas:
 ## 📚 Documentação
 
 - 📘 [Explicação dos Comandos Utilizados](docs/explicacao-comandos.md)
-- 🧪 Scripts de criação e remoção de usuários
+- 🧪 [Scripts de criação e remoção de usuários](scrips/iac1.sh)
 - 🔐 Estudos sobre permissões e grupos
 ---
 ## 🛠️ Tecnologias Utilizadas
