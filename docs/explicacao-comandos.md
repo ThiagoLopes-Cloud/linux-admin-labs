@@ -123,3 +123,9 @@ userdel -r guest10
 📌 -r → remove também o diretório home e arquivos do usuário
 
 ### Loop para exclusão em lote
+```
+for i in {1..25}
+do
+  userdel -r guest$i
+done
+``
