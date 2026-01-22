@@ -69,4 +69,57 @@ useradd -m -s /bin/bash -G GRP_ADM carlos
 
 ---
 
-###
+## 🔐 Permissões e Diretórios
+
+### mkdir
+Cria diretórios no sistema
+
+Exemplo:
+```
+mkdir pasta-exemplo
+```
+### chmod 
+Altera permissões de arquivos e dirertórios
+
+Exemplo: 
+```
+chmod 700 /home/carlos
+```
+📌 Permite acesso total apenas ao dono do diretório.
+
+---
+## 🔄 Automação com Loop
+
+### for
+Utilizado para criar usúararios em lote.
+
+Exemplo:
+```
+for i in {1..21}
+do
+  useradd -m -s /bin/bash guest$i
+  echo "guest$i:Senha123" | chpasswd
+  passwd -e guest$i
+done
+```
+O que esse loop faz:
+
+- Cria usuários guest1 até guest21
+
+- Cria diretórios home automaticamente
+
+- Define senha padrão
+
+- Força troca de senha no primeiro login
+---
+## ❌ Remoção de Usuários
+### userdel
+Remove usuario do sistema
+
+Exemplo:
+```
+userdel -r guest10
+```
+📌 -r → remove também o diretório home e arquivos do usuário
+
+### Loop para exclusão em lote
