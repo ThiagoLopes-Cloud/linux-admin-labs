@@ -21,6 +21,12 @@ O script `iacl.sh` realiza as seguintes etapas:
 3. Define uma senha padrão
 4. Força a troca de senha no primeiro login
 ---
+## 📚 Documentação
+
+- 📘 [Explicação dos Comandos Utilizados](docs/explicacao-comandos.md)
+- 🧪 Scripts de criação e remoção de usuários
+- 🔐 Estudos sobre permissões e grupos
+---
 ## 🛠️ Tecnologias Utilizadas
 - Linux (Ubuntu)
 - Bash / Shell Script
