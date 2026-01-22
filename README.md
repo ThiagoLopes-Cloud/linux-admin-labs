@@ -25,7 +25,7 @@ O script [`iacl.sh`](scripts/iac1.sh) realiza as seguintes etapas:
 
 - 📘 [Explicação dos Comandos Utilizados](docs/explicacao-comandos.md)
 - 🧪 [Scripts de criação e remoção de usuários](scrips/iac1.sh)
-- 🔐 Estudos sobre permissões e grupos
+- 🧪 [Exemplos de Saída e Validação dos Comandos](docs/output-exemplos.md)
 ---
 ## 🛠️ Tecnologias Utilizadas
 - Linux (Ubuntu)
