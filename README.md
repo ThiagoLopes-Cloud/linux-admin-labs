@@ -36,5 +36,17 @@ O script [`iacl.sh`](scripts/iac1.sh) realiza as seguintes etapas:
 ---
 ## 📂 Estrutura do Projeto
 ---
+```
+linux-admin-labs/
+│
+├── scripts/
+│   └── admin_tasks.sh        # Script com comandos de administração Linux
+│
+├── docs/
+│   ├── explicacao-comandos.md # Explicação detalhada dos comandos utilizados
+│   └── output-exemplos.md     # Exemplos de saída dos comandos no terminal
+│
+├── README.md                 # Documentação principal do projeto
 
+```
 
